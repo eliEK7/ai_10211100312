@@ -4,8 +4,6 @@ import fitz  # PyMuPDF
 import time  # For measuring response time
 from openai import OpenAI
 
-# Load environment variables
-load_dotenv()
 
 ## Evans Eli Kumah - 10211100312
 
