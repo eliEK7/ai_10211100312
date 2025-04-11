@@ -4,7 +4,6 @@ import fitz  # PyMuPDF
 import time  # For measuring response time
 from openai import OpenAI
 
-
 ## Evans Eli Kumah - 10211100312
 
 # Function to query the Mistral API using NVIDIA's endpoint
@@ -110,7 +109,7 @@ if question:
     context = text_chunks[0]  # You can improve this by selecting more relevant chunks based on the question
 
     # Get API key from environment variable
-    api_key = os.getenv("NVIDIA_API_KEY")
+    api_key = st.secrets["NVIDIA_API_KEY"]
     
     # Get the response from Mistral API
     result, confidence, response_time = query_mistral_api(question, context, api_key)
