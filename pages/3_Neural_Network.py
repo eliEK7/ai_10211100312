@@ -14,7 +14,7 @@ import pandas as pd
 
 ## Evans Eli Kumah - 10211100312
 
-st.title("🧠 Neural Network Classifier")
+st.title("Neural Network Classifier")
 
 # Upload dataset
 uploaded_file = st.file_uploader("Upload classification dataset (CSV)", type=["csv"])
