@@ -49,7 +49,7 @@ def query_mistral_api(question, context, api_key):
     
     return answer, confidence_score, response_time
 
-st.title("📚 Q&A: Budget Bot")
+st.title("Q&A: Budget Bot")
 
 st.markdown(
     """
