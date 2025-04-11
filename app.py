@@ -20,5 +20,5 @@ Use the sidebar to navigate to:
 #### Student ID: 10211100312
 #### Course: Introduction to AI
 #### Institution: Academic City University
-#### GitHub Repo            
+#### [GitHub Repo](https://github.com/eliEK7/ai_10211100312)            
 """)
