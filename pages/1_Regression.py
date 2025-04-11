@@ -5,7 +5,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_absolu
 import matplotlib.pyplot as plt
 
 ## Evans Eli Kumah - 10211100312
-st.title("📈 Simple Linear Regression")
+st.title("Simple Linear Regression")
 
 uploaded_file = st.file_uploader("Upload your regression dataset (CSV)", type=["csv"])
 if uploaded_file:
