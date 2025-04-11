@@ -8,7 +8,7 @@ import plotly.express as px
 
 ## Evans Eli Kumah - 10211100312
 
-st.title("🔗 K-Means Clustering")
+st.title("K-Means Clustering")
 
 uploaded_file = st.file_uploader("Upload your dataset (CSV)", type=["csv"])
 if uploaded_file:
